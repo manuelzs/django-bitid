@@ -11,7 +11,7 @@ In your setting.py file, add the backend to AUTHENTICATION_BACKENDS.
 
 ``djbitid.backends.BitIdBackend``
 
-You can implement your own login passing ``bitid_uri``, ``callback_uri``, ``signature`` and ``address`` to the backend or use the provided templates and forms.
+You can implement your own login passing ``bitid_uri``, ``callback_uri``, ``signature`` and ``address`` to the backend or use the provided templates and forms as explained in the section_ below.
 
 Dependencies
 ------------
@@ -24,6 +24,7 @@ Dependencies
 
 https://github.com/LaurentMT/pybitid
 
+.. _section:
 Templates and Forms
 ===================
 
