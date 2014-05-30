@@ -16,9 +16,9 @@ You can implement your own login passing ``bitid_uri``, ``callback_uri``, ``sign
 Dependencies
 ------------
 
- * pybitid
- * south: provides migrations
- * pytz: for timezone aware date comparisons
+* pybitid
+* south: provides migrations
+* pytz: for timezone aware date comparisons
 
 *NOTE*: The PyBitID_ project, as this project, is very early stage. Currently it has to be installed manually from:
 
