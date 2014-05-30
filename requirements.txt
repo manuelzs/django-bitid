@@ -1,0 +1,3 @@
+south==0.8.4
+-e git+https://github.com/LaurentMT/pybitid.git@28a705f318e50a2979323d0e804ebbd62396a221#egg=pybitid
+pytz==2014.3

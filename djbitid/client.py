@@ -1,0 +1,2 @@
+class BitId:
+    pass
