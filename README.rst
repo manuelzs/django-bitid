@@ -13,6 +13,17 @@ In your setting.py file, add the backend to AUTHENTICATION_BACKENDS.
 
 You can implement your own login passing ``bitid_uri``, ``callback_uri``, ``signature`` and ``address`` to the backend or use the provided templates and forms.
 
+Dependencies
+------------
+
+ * pybitid
+ * south: provides migrations
+ * pytz: for timezone aware date comparisons
+
+*NOTE*: The PyBitID_ project, as this project, is very early stage. Currently it has to be installed manually from:
+
+https://github.com/LaurentMT/pybitid
+
 Templates and Forms
 ===================
 
@@ -42,3 +53,4 @@ Challenge expiration time in seconds. Defaults to 600 seconds.
 
 
 .. _bitId: https://github.com/bitid/bitid
+.. _PyBitID: https://github.com/LaurentMT/pybitid
