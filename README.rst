@@ -11,12 +11,12 @@ In your setting.py file, add the backend to AUTHENTICATION_BACKENDS.
 
 ``djbitid.backends.BitIdBackend``
 
-You can implement your own login passing `bitid_uri`, `callback_uri`, `signature` and `address` to the backend or use the provided templates and forms.
+You can implement your own login passing ``bitid_uri``, ``callback_uri``, ``signature`` and ``address`` to the backend or use the provided templates and forms.
 
 Templates and Forms
 ===================
 
-To use the provided templates and forms add `djbitid` to installed apps.
+To use the provided templates and forms add ``djbitid`` to installed apps.
 
 Then add to your urls
 
