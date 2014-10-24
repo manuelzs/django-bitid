@@ -4,6 +4,8 @@ django-bitid
 
 A django app for bitId_  authentication.
 
+WARNING: The bitId_ specification is a work in progress and it will probably change.
+
 Installation
 ============
 
