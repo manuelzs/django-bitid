@@ -9,6 +9,13 @@ WARNING: The bitId_ specification is a work in progress and it will probably cha
 Installation
 ============
 
+From pip:
+
+``pip instal django-bitid``
+
+Set Up
+------
+
 In your setting.py file, add the backend to AUTHENTICATION_BACKENDS.
 
 ``djbitid.backends.BitIdBackend``
@@ -29,13 +36,10 @@ The provided templates  extend 'base.html'
 Dependencies
 ------------
 
-* pybitid
+* PyBitID_
 * south: provides migrations
 * pytz: for timezone aware date comparisons
 
-*NOTE*: The PyBitID_ project, as this project, is very early stage. Currently it has to be installed manually from:
-
-https://github.com/LaurentMT/pybitid
 
 Settings
 ========
