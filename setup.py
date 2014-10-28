@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='django-bitid',
-    version='0.1',
+    version='0.1.1',
     description='App for django bitId authentication',
     author='Manuel Zapata',
     author_email='manuelzs@gmail.com',
@@ -18,10 +18,12 @@ setup(
     requires=[
         'south(>=0.8.4)',
         'pytz(>=2014.3)',
+        'pybitid(==0.0.4)',
     ],
     install_requires=[
         'south >= 0.8.4',
         'pytz >= 2014.3',
+        'pybitid == 0.0.4',
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
